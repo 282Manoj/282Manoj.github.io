@@ -1,10 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./components/Header";
+import Banner from "./components/Banner";
+import Projects from "./components/Projects";
+import Footer from "./components/Footer";
+import Contact from "./components/Contact";
+import Skill from "./components/Skill";
+import Calender from "./components/Clander";
+import Stats from "./components/Stats";
 
 function App() {
   return (
-    <div className="App">
-     Hello world
+    <div>
+      <Header />
+      <Banner />
+      <Skill/>
+      <Projects />
+      <Calender/>
+      <br></br>
+      <Stats/>
+      <Contact/>
+      <Footer />
     </div>
   );
 }
