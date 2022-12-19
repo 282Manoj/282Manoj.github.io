@@ -1,0 +1,21 @@
+.nav-box{
+    display: flex;
+    justify-content: space-between;
+    /* border:1px solid red; */
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+    padding:10px;
+    margin-top:20px;
+}
+.logo{
+    color:rgb(107, 243, 243);
+    font-weight:800;
+    font-size: 24px;
+}
+.option{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid blue; */
+    width:40%;
+}

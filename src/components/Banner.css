@@ -1,0 +1,132 @@
+ .banner-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin:auto;
+    gap: 40px;
+    margin-top: 100px;
+    /* border:1px solid black */
+  }
+
+  .banner-wrapper>img{
+    border-radius: 4%;
+     width: 40%;
+  }
+ 
+  .banner-content h6 {
+    line-height: 26px;
+    font-size: 22px;
+    color:black;
+    font-weight: 600;
+  }
+  .banner-content h3 {
+    font-size: 40px;
+    line-height: 50px;
+    color:white;
+    margin: 6px 0px;
+    font-weight: 900;
+  }
+   .banner-content p {
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+    
+  }
+  
+   .banner-content .btn {
+    max-width: 150px;
+    height: 50px;
+    background: rgb(152, 139, 139);
+    border: 1px solid white;
+    font-size: 22px;
+    font-weight: 600;
+    padding:10px;
+  }
+   .banner-content .btn:hover {
+    background: black;
+  }
+  @media screen and (max-width:900px) {
+    .banner-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:98%;
+        /* border: 1px solid red; */
+        margin: auto;
+    }
+    .banner-content p{
+        width: 75%; 
+        text-align: justify;
+        text-align: center;
+        margin:auto;
+        color:white;
+    }
+    .banner-content h3{
+        font-size:18px;
+        width:75%;
+        margin:auto;
+        text-align: center;
+        /* border: 1px solid black; */
+        color:white;
+    }
+   .banner-wrapper> img{
+      width: 90%;  
+    }
+    .banner-content h6{
+        text-align: center;
+        color:white;
+
+    }
+    .banner-content .btn {
+        display: block;
+        margin: auto;
+        margin-top: 5px;
+        text-align: center;
+    }
+  }
+  
+  @media screen and (max-width:500px) {
+    .banner-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:98%;
+        border: 1px solid red;
+        margin: auto;
+    }
+    .banner-content p{
+        width: 75%; 
+        text-align: justify;
+        text-align: center;
+        margin:auto;
+        color:white;
+    }
+    .banner-content h3{
+        font-size:18px;
+        width:75%;
+        margin:auto;
+        text-align: center;
+        /* border: 1px solid black; */
+        color:white;
+    }
+   .banner-wrapper> img{
+      width: 90%;  
+    }
+    .banner-content h6{
+        text-align: center;
+        color:white;
+
+    }
+    .banner-content .btn {
+        display: block;
+        margin: auto;
+        margin-top: 5px;
+        text-align: center;
+    }
+  }

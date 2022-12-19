@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import "./Skill.css"
 
 function Skill() {
   const [services] = useState([
@@ -29,8 +30,8 @@ function Skill() {
     },
   ]);
   return (
-    <section className="services-experience" id="skill">
-      <div className="container">
+    
+      <div className="skill-box">
         <div className="title">
           <h3>SKILLS</h3>
         </div>
@@ -42,7 +43,7 @@ function Skill() {
           ))}
         </div>
       </div>
-    </section>
+   
   );
 }
 

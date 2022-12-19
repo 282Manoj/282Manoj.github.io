@@ -1,0 +1,37 @@
+.contact .contact-item {
+    width: 76%;
+    background-color: #5b7be1;
+    margin: auto;
+    height: auto;
+    margin-bottom: 100px;
+    padding: 20px;
+  }
+  .contact .title {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: 20px;
+    /* border: 1px solid red; */
+    /* margin-left: 5px; */
+  }
+  .contact-item > div {
+    width: 50%;
+    /* margin: auto; */
+    /* border:2px solid red; */
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .contact-item > div {
+    display: flex;
+    gap: 10px;
+    color: white;
+    align-items: center;
+    text-decoration: none;
+  }
+  .contact-item > div > i {
+    font-size: 25px;
+  }
+  .contact-item > div > a {
+    font-size: 18px;
+    color: white;
+  }
