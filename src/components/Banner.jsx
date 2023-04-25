@@ -7,11 +7,11 @@ import { DownloadIcon } from '@chakra-ui/icons'
 
 function Banner() {
   return (
-    <div id="ban" >
+    <div className="ban" >
 
     
     <div className="banner-wrapper" id="home">
-      <img src="/Manoj-removebg.png" alt="" />
+      <img src="/Manoj.jpeg" alt="" />
       <div className="banner-content">
         <h6>Hello, I'm Manoj Kumar</h6>
         <h3> Full Stack Web Developer</h3>
