@@ -1,3 +1,7 @@
+.skill-box{
+  /* border: 1px solid red; */
+  background-color: rgb(69, 67, 67);
+}
 .services {
   position: relative;
   display: grid;
@@ -9,11 +13,7 @@
   padding: 20px;
   width: 90%;
   margin: auto;
-  /* margin-bottom: 50px; */
-  /* background-color: rgb(69, 67, 67); */
-}
-#Skills{
-  background-color: rgb(69, 67, 67);
+  /* border: 1px solid red; */
 }
 .title{
   color:white;

@@ -39,7 +39,7 @@ function Projects() {
   return (
     <div id="Project">
       <div className="pro">
-      <h2 style={{fontWeight:"700",color:"white",fontSize:"24px"}}>Projects</h2></div>
+      <h2 style={{fontWeight:"600",color:"white",fontSize:"24px",marginLeft:"70px"}}>Projects</h2></div>
       <div className="project-box">
         {projects.map((el) => {
           return <SingleProject {...el} />;
