@@ -1,0 +1,48 @@
+.contact .contact-item {
+    width: 100%;
+    padding: 10px 90px;
+    background-color: rgb(69, 67, 67);
+    margin-top:0;
+  }
+  .title {
+    width: 90%;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .contact-item > div {
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .contact-item > div {
+    display: flex;
+    gap: 10px;
+    color: white;
+    align-items: center;
+    text-decoration: none;
+  }
+  .contact-item > div > i {
+    font-size: 25px;
+  }
+  .contact-item > div > a {
+    font-size: 18px;
+    color: white;
+  }
+  @media screen and (max-width:900px) {
+    .contact .contact-item{
+      width:100%;
+      /* border: 1px solid red; */
+    }
+  }
+  @media screen and (max-width:500px) {
+    .contact .contact-item{
+      width:100%;
+      /* border: 1px solid red; */
+    }
+ .contact .title{
+  margin-top: 10px;
+  margin-bottom: 10px;
+   width: 100%;
+   margin: auto;
+  }
+  }

@@ -1,0 +1,48 @@
+.SingleProject-box{
+    border: 2px solid rgb(238, 230, 230);
+    border-radius: 2px;
+    padding: 15px;
+}
+.SingleProject-box>h3{
+    font-size: 26px;
+    color: white;
+    margin-bottom: 5px;
+}
+.SingleProject-box>img{
+  width:630px;
+  height:400px;
+  border-radius: 5px;
+}
+.SingleProject-box>p{
+    color:white;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.button-box>button{
+    background-color: white;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 20px;
+    color: black;
+
+}
+.button-box>button:hover{
+    background-color: black;;
+    color: white;
+}
+
+
+@media(max-width:900px){
+    .SingleProject-box>img{
+        width: 100%;
+        height: 400px;
+    }
+}
+@media(max-width:500px){
+    .SingleProject-box>img{
+        width: 100%;
+        height: 250px;
+    }
+}
