@@ -54,6 +54,7 @@
       justify-items: center;
       width: 95%;
       margin-left:20px;
+      /* border:1px solid red; */
     }
 
     .title>h3{
@@ -61,7 +62,6 @@
       margin-left:0;
       text-align: center;
       margin: auto;
-      /* margin-top: 10px; */
    }
 }
 @media screen and (max-width:500px) {

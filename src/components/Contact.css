@@ -28,21 +28,3 @@
     font-size: 18px;
     color: white;
   }
-  @media screen and (max-width:900px) {
-    .contact .contact-item{
-      width:100%;
-      /* border: 1px solid red; */
-    }
-  }
-  @media screen and (max-width:500px) {
-    .contact .contact-item{
-      width:100%;
-      /* border: 1px solid red; */
-    }
- .contact .title{
-  margin-top: 10px;
-  margin-bottom: 10px;
-   width: 100%;
-   margin: auto;
-  }
-  }

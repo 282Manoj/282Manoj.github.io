@@ -21,7 +21,7 @@ const Calender = () => {
   return (
     <div>
       <GitHubCalendar
-        style={{ margin: "auto" }}
+        style={{ margin: "auto",backgroundColor:"rgb(69, 67, 67)" }}
         username="282Manoj"
         transformData={selectLastHalfYear}
         blockSize={20}

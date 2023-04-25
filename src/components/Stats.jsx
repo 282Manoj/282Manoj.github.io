@@ -5,7 +5,7 @@ const Stats = () => {
   return (
     // streak
     <div>
-      <div style={{ width: "40%", margin: "auto" }}>
+      <div>
         <a href="https://github.com/282Manoj">
           <img
             align="left"
@@ -24,14 +24,14 @@ const Stats = () => {
         }}
       >
         <a href="https://github.com/282Manoj">
-          <img style={{height:"200px",marginTop:"30px"}}
+          <img 
             align="right"
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=282Manoj"
             alt="hello" //launguages
           />
         </a>
         <a href="https://github.com/282Manoj">
-          <img style={{height:"200px",marginTop:"30px"}}
+          <img 
             align="left"
             src="https://github-readme-stats.vercel.app/api?username=282Manoj&count_private=true&show_icons=true"
             alt="hle" //stats

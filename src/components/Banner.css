@@ -21,6 +21,7 @@
   .banner-content{
     margin-left: 60px;
     margin-top: 80px;
+    /* border:1px solid red; */
   }
  .banner-content h6 {
    line-height: 26px;
@@ -73,7 +74,7 @@
 
  @media screen and (max-width:900px) {
    .banner-wrapper {
-     width: 100%;
+     /* width: 100%; */
      display: flex;
      flex-direction: column;
      justify-content: center;
@@ -83,7 +84,7 @@
    }
 
    .banner-content p {
-     width: 75%;
+     /* width: 75%; */
      text-align: justify;
      text-align: center;
      margin: auto;
@@ -91,11 +92,11 @@
    }
 
    .banner-content h3 {
-     font-size: 18px;
+     font-size: 25px;
      width: 75%;
      margin: auto;
      text-align: center;
-     /* border: 1px solid black; */
+     border: 1px solid black;
      color: white;
    }
 
@@ -131,7 +132,9 @@
      padding: 5px;
      margin-top: 40px;
    }
-
+ .banner-content{
+  margin-left: 0;
+ }
    .banner-content p {
      width: 75%;
      text-align: justify;
@@ -141,9 +144,10 @@
    }
 
    .banner-content h3 {
-     font-size: 18px;
+     font-size: 25px;
      width: 75%;
      margin: auto;
+     line-height: 30px;
      text-align: center;
      /* border: 1px solid black; */
      color: white;
