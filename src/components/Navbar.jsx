@@ -6,7 +6,7 @@ import DrawerExample from './dwrawer'
 const Navbar = () => {
   const [height,width] =useWindowsize();
   return (
-    <div className='nav-box'>
+    <div id="nav-menu" className='nav-box'>
       <div className='logo'>Manoj Kumar.</div>
       {width>900 ?
       <div className="option">

@@ -5,7 +5,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Skill from "./components/Skill";
 import useWindowsize from "./Hook/HandW.hook";
-import Calender from "./components/Clander";
+import Calender from "./components/Calender";
 import Stats from "./components/Stats";
 
 function App() {
