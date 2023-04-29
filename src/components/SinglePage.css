@@ -32,8 +32,17 @@
     background-color: black;;
     color: white;
 }
-
-
+.tstack{
+    display: flex;
+    font-size: 25px;
+    gap:20px;
+}
+.tstack-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+}
 @media(max-width:900px){
     .SingleProject-box>img{
         width: 100%;

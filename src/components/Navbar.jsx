@@ -10,11 +10,12 @@ const Navbar = () => {
       <div className='logo'>Manoj Kumar.</div>
       {width>900 ?
       <div className="option">
-        <a href="#home">Home</a>
-        <a href="#Skills">Skills</a>
-        <a href="#Project">Project</a>
-        <a href="#Contact">Contact</a>
-        <a  href="https://drive.google.com/file/d/1eu5eoFs6eUsc4emkegEwjsgQZKyi1Dl-/view?usp=sharing"
+        <a className="nav-link home" href="#home">Home</a>
+        <a className='nav-link about' href="#about">About</a>
+        <a className='nav-link skills' href="#skills">Skills</a>
+        <a className="nav-link projects"href="#projects">Project</a>
+        <a className="nav-link contact" href="#contact">Contact</a>
+        <a className='nav-link resume' href="https://drive.google.com/file/d/1eu5eoFs6eUsc4emkegEwjsgQZKyi1Dl-/view?usp=sharing"
           target="_blank" rel="noreferrer"> Resume</a>
       </div> :
       <DrawerExample/>

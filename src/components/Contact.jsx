@@ -4,8 +4,7 @@ import "./Contact.css";
 export default function Contact() {
   return (
     <>
-    
-    <div className='contact' id="Contact">
+    <div className='contacts' id="contact">
     
       <div className='contact-item'>
       <div className=' title'>

@@ -1,14 +1,11 @@
-import React,{useState,useEffect} from "react";
-// import { Box, Heading,Flex } from "@chakra-ui/react";
+import React, { useState, useEffect } from "react";
 import GitHubCalendar from "react-github-calendar";
 import ReactTooltip from "react-tooltip";
-// import { style } from "../../utils/styles";
 const Calender = () => {
   const [smallerScreen,setSmallerScreen] = useState(false)
 
 useEffect(()=>{
   window.addEventListener('resize',()=>{
-    // console.log(window.innerWidth)
     if(window.innerWidth<1000) setSmallerScreen(true);
     else setSmallerScreen(false)
   })

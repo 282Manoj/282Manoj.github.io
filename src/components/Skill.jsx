@@ -30,20 +30,21 @@ function Skill() {
     },
   ]);
   return (
-    
-      <div className="skill-box" id="Skills">
-        <div className="title">
-          <h3>SKILLS</h3>
-        </div>
-        <div className="services" id="services">
-          {services.map((el, i) => (
-            <div className="imgg" key={i}>
-              <img src={el.img} alt="" />
+        <div id="skills">
+          <div className="skill-box" id="Skills">
+            <div className="title">
+              <h3>SKILLS</h3>
             </div>
-          ))}
+            <div className="services" id="services">
+              {services.map((el, i) => (
+                <div className="imgg skills-card" key={i}>
+                  <img  className="skills-card-image" src={el.img} alt="" />
+                </div>
+              ))}
+            </div>
+          </div>
+       
         </div>
-      </div>
-   
   );
 }
 

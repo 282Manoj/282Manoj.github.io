@@ -1,7 +1,7 @@
-#Project {
+#projects {
   background-color: rgb(69, 67, 67);
   padding: 10px;
-  margin: 0;
+  padding-top:60px;
 }
 .project-box {
   width: 90%;

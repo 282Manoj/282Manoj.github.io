@@ -4,8 +4,8 @@ import "../App.css";
 const Stats = () => {
   return (
     // streak
-    <div>
-      <div>
+    <div >
+      <div >
         <a href="https://github.com/282Manoj">
           <img
             align="left"
@@ -15,7 +15,7 @@ const Stats = () => {
         </a>
       </div>
 
-      <div
+      <div id="github-stats-card"
         style={{
           width: "56%",
           display: "flex",
