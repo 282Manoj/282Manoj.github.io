@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.db27e563.css",
-    "main.js": "/static/js/main.fa052d7e.js",
+    "main.js": "/static/js/main.af0ce154.js",
     "static/media/Manoj_Kumar_Resume.pdf": "/static/media/Manoj_Kumar_Resume.968b46de7a34ea4251c6.pdf",
     "index.html": "/index.html",
     "main.db27e563.css.map": "/static/css/main.db27e563.css.map",
-    "main.fa052d7e.js.map": "/static/js/main.fa052d7e.js.map"
+    "main.af0ce154.js.map": "/static/js/main.af0ce154.js.map"
   },
   "entrypoints": [
     "static/css/main.db27e563.css",
-    "static/js/main.fa052d7e.js"
+    "static/js/main.af0ce154.js"
   ]
 }
